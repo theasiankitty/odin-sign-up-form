@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Odin Sign Up</title>
+</head>
+
+<body>
+    <div class="content-container">
+        <div class="hero-container">
+            <!-- image container -->
+            <!-- Photo by <a href="https://unsplash.com/de/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maximalfocus</a> on <a href="https://unsplash.com/photos/VT4rx775FT4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+            <!-- Photo by Maximalfocus on Unsplash -->
+
+            <div class="logo-container">
+                <img src="assets/images/odin-lined-logo.png" alt="Odin Logo">
+                <h1>Odin Sign-Up Form</h1>
+            </div>
+
+            <div class="credits">
+                Photo by <a href="https://unsplash.com/de/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maximalfocus</a> on <a href="https://unsplash.com/photos/VT4rx775FT4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash </a>
+            </div>
+        </div>
+        <div class="sign-up-container">
+            <!-- sign up container -->
+            <div class="info container">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize
+                    your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+
+            <form action="/" method="GET" id="signUpForm">
+                <div class="form container">
+                    <h2>Let's do this!</h2>
+                    <div class="form-section">
+                        <div class="input-control">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="First Name">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <div class="input-control">
+                            <label for="email_address">Email</label>
+                            <input type="email" name="email_address" id="email_address"
+                                placeholder="example@website.com">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" id="phone_number" name="phone_number" placeholder="9XX-XXX-XXXX">
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <div class="input-control">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" name="confirm_password" id="confirm_password">
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="/">Log in</a></p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
